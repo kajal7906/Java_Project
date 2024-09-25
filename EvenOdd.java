@@ -6,15 +6,14 @@ public class EvenOdd {
         System.out.println("Even Numbers are:");
         for (int i = 0; i <= 100; i++) {
             if (i % 2 == 0)
-                System.out.println(i);
+                System.out.print(i +" ");
         }
-        System.out.println("Odd Numbers are:");
+        System.out.println("\nOdd Numbers are:");
         for (int i = 0; i <= 100; i++) {
 
             if (i % 2 != 0)
-                System.out.println(i);
+                System.out.print(i + " ");
 
         }
     }
-
 }
