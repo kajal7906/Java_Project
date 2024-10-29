@@ -31,6 +31,7 @@ public class CricketerScores {
             System.out.println("Cricketer " + cricketerName + " not found in the records.");
         }
 
+       
     }
 }
 

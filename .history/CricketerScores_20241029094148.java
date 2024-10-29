@@ -1,4 +1,5 @@
-import java.util.HashMap;
+
+    import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -17,7 +18,7 @@ public class CricketerScores {
         // Scanner for user input
         Scanner scanner = new Scanner(System.in);
 
-        // Asks user to enter a cricketer name to search
+        // Prompt user to enter a cricketer name to search
         System.out.print("Enter the cricketer's name to search for their score: ");
         String cricketerName = scanner.nextLine();
 
@@ -31,7 +32,9 @@ public class CricketerScores {
             System.out.println("Cricketer " + cricketerName + " not found in the records.");
         }
 
+        // Close the scanner
+        scanner.close();
     }
 }
 
-
+}
